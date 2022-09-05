@@ -3,11 +3,10 @@ import { useRouter } from "next/router";
 import userData from "@constants/data";
 
 import dynamic from "next/dynamic";
-const ThemeButton = dynamic(() => import("../components/ThemeButton"), {ssr: false });
+const ThemeButton = dynamic(() => import("../components/ThemeButton"), { ssr: false });
 
 export default function Navbar() {
   const router = useRouter();
-  console.log(router.asPath);
 
   return (
     <div className="max-w-6xl  mx-auto px-4 py-10 md:py-20">
