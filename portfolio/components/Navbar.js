@@ -105,8 +105,8 @@ export default function Navbar() {
               )}
             </a>
           </Link>
-          <Link href="/assets/pdfs/Patrick F Ham - Resume.pdf">
-            <a href="/assets/pdfs/Patrick F Ham - Resume.pdf" target="_blank" className="text-gray-600 dark:text-gray-300 font-normal">
+          <Link href="https://docs.google.com/document/d/e/2PACX-1vR5P8Mx4ZJc7_L-7oLVcUKqvvP7DqKcW3DA5fMeFvJVqkDQ-SnxxjyHcvyVr75FL1vFlr-mpjvJ8JSb/pub">
+            <a href="https://docs.google.com/document/d/e/2PACX-1vR5P8Mx4ZJc7_L-7oLVcUKqvvP7DqKcW3DA5fMeFvJVqkDQ-SnxxjyHcvyVr75FL1vFlr-mpjvJ8JSb/pub" target="_blank" className="text-gray-600 dark:text-gray-300 font-normal">
               Resume
             </a>
           </Link>
