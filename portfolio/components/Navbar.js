@@ -177,11 +177,12 @@ export default function Navbar() {
             Experience
           </a>
         </Link>
-        <Link href="/contact">
-          <a className="text-base font-normal text-gray-600 dark:text-gray-300">
-            Contact
-          </a>
-        </Link>
+        <Link href="https://docs.google.com/document/d/e/2PACX-1vR5P8Mx4ZJc7_L-7oLVcUKqvvP7DqKcW3DA5fMeFvJVqkDQ-SnxxjyHcvyVr75FL1vFlr-mpjvJ8JSb/pub">
+            <a href="https://docs.google.com/document/d/e/2PACX-1vR5P8Mx4ZJc7_L-7oLVcUKqvvP7DqKcW3DA5fMeFvJVqkDQ-SnxxjyHcvyVr75FL1vFlr-mpjvJ8JSb/pub" target="_blank"
+              className="text-base font-normal text-gray-600 dark:text-gray-300">
+              Resume
+            </a>
+          </Link>
       </div>
     </div>
   );
